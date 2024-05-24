@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>T-Shirt Sign Up</title>
+  </head>
+  <body>
+    <h1>T-Shirt Sign Up</h1>
+    <p>Enter your name and size to sign up for a T-Shirt.</p>
+    <form action="#" method="post">
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        value=""
+        placeholder="your email"
+      /><br /><br />
+
+      <label for="name">Name *</label><br />
+      <input type="text" id="name" name="name" required /><br /><br />
+
+      <p>Shirt size</p>
+      <input type="radio" id="xs" name="shirt_size" value="XS" />
+      <label for="xs">XS</label><br />
+      <input type="radio" id="s" name="shirt_size" value="S" />
+      <label for="s">S</label><br />
+      <input type="radio" id="m" name="shirt_size" value="M" />
+      <label for="m">M</label><br />
+      <input type="radio" id="l" name="shirt_size" value="L" />
+      <label for="l">L</label><br />
+      <input type="radio" id="xl" name="shirt_size" value="XL" />
+      <label for="xl">XL</label><br /><br />
+
+      <p>T-Shirt Preview</p>
+      <img src="./tshirt_preview.png" alt="T-Shirt Preview" /><br /><br />
+
+      <label for="comments">Other thoughts or comments</label><br />
+      <textarea id="comments" name="comments"></textarea><br /><br />
+
+      <button type="submit">Submit</button>
+      <button type="reset">Clear form</button>
+    </form>
+  </body>
+</html>
